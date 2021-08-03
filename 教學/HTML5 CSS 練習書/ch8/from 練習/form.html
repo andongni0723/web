@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表單</title>
+</head>
+<body>
+    <form>
+        <h3>文字方塊</h3>
+        姓名: <input type="text" name="username"><br>
+        地址: <input type="text" name="userddr" size="30"><br>
+        密碼: <input type="password" name="pwd" placeholder="至少8個字"><br><br>
+        <input type="submit" value="送出">
+        <input type="reset" value="清除">
+        <h3>一般按鈕</h3>
+        <input type="button" value="上一頁" onclick="form.go(-1)">
+        <input type="button" value="下一頁" onclick="form.go(1)">
+        <h3>圖片提交按鈕</h3>
+        <input type="image" src="button.png" >
+        <h3>選擇鈕</h3>
+        <input type="radio" name="userage" value="age1">未滿20歲
+        <input type="radio" name="userage" value="age2" checked>20~29
+        <input type="radio" name="userage" value="age3">30歲以上<br><br>
+        <input type="submit" >
+        <input type="reset">
+        <h3>核取方塊</h3>
+        <input type="checkbox" name="phone[]" id="hTc" checked>hTc
+        <input type="checkbox" name="phone[]" id="Apple">Apple
+        <input type="checkbox" name="phone[]" id="ASUS">ASUS <br><br>
+        <input type="submit" >
+        <input type="reset">
+        <h3>隱藏欄位</h3>
+        帳號: <input type="text" name="accout"><br>
+        <input type="hidden" name="auther" value="Tim"><br><br>
+        <input type="submit" >
+        <input type="reset">
+        <h3>上傳檔案欄位</h3>
+        <input type="file" name="upfile" size="30" ><br><br>
+        <input type="submit" >
+        <input type="reset">
+        <h3>e-mail 欄位</h3>
+        E-mail: <input type="email" name="useremail"><input type="submit" >
+        <h3>網址欄位</h3>
+        網址:<input type="url" name="weurl">
+        <input type="submit">
+        <h3>搜尋欄位</h3>
+        關鍵字: <input type="search" name="keyword">
+        <input type="submit" value="搜尋">
+        <h3>電話欄位</h3>
+        手機號碼: <input type="tel" name="usertel" pattern="[0-9]{4}-[0-9]{6}" placeholder="例如:0958123456" title="例如:0958123456">
+        <input type="submit">
+        <h3>數值欄位</h3>
+        <input type="number" name="num" min="0" max="10" step="2">
+        <input type="submit">
+        <h3>指定範圍數值欄位</h3>
+        <input type="range" name="num" min="0" max="100" step="5"><input type="submit">
+        <h3>日期時間欄位</h3>
+        <input type="date" name="dt"><input type="time" name="dt"><input type="datetime-local" name="dt"><input type="month" name="dt"><input type="week" name="dt">
+        <h3>選擇色彩欄位</h3>
+        <input type="color" name="clr">
+        <h3>多行文字</h3>
+        意見: <textarea name="suggestion" cols="30" rows="3"></textarea>
+        <h3>下拉式選單</h3>
+        <select name="class">
+            <option value="PE" selected>PE</option>
+            <option value="Chinese">Chinese</option>
+            <option value="English">English</option>
+        </select>
+
+        <select name="class[]" multiple>
+            <option value="PE" selected>PE</option>
+            <option value="Chinese">Chinese</option>
+            <option value="English">English</option>
+        </select>
+        <h3>群組標籤</h3>
+        <select name="food">
+            <optgroup label="義大利面">
+                <option value="food1">番茄海鮮義大利面</option>
+                <option value="food2">白酒蛤蜊義大利面</option>
+                <option value="food3">培根鮮蔬義大利面</option>
+            </optgroup>
+            <optgroup label="燉飯">
+                <option value="food1">青醬嫩雞燉飯</option>
+                <option value="food2">西西里炸魚燉飯</option>
+            </optgroup>
+        </select>
+        <h3>群組表單欄位</h3>
+        <fieldset>
+            <legend>我的最愛</legend>
+            <label for="lovefood">食物:</label>
+            <input type="text"><br>
+            <label for="play">興趣:</label>
+            <input type="text"><br><br>
+            <input type="submit" >
+            <input type="reset">
+        </fieldset>
+    </form>
+</body>
+</html>

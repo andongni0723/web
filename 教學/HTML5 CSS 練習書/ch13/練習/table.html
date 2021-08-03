@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>table</title>
+    <style>
+        table{
+            width: 300px;
+            font-family: 標楷體;
+            border: 1px solid black;
+        }
+        th{
+            border-bottom: solid 2px pink;
+        }
+        th,td{
+            padding: 4px;
+        }
+        tr.odd{
+            background-color: #eaeaea;
+            text-align: center;
+        }
+        tr.even{
+            text-align: center;
+        }
+        tr:hover{
+            background: pink;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>test</th>
+            <th>test1</th>
+        </tr>
+        <tr class="odd">
+            <td>a</td>
+            <td>1</td>
+        </tr>
+        <tr class="even">
+            <td>b</td>
+            <td>2</td>
+        </tr>
+        <tr class="odd">
+            <td>c</td>
+            <td>3</td>
+        </tr>
+        <tr class="even">
+            <td>d</td>
+            <td>4</td>
+    </table>
+</body>
+</html>

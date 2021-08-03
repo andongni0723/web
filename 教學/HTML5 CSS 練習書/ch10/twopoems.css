@@ -1,0 +1,33 @@
+body
+{
+    background-color: tan;
+    font-family: 標楷體;
+}
+
+h1
+{
+    text-align: center;
+    background-color: #cd5c5d;
+    color: white;
+    font-size: 50px;
+}
+
+h2
+{
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-size: 35px;
+}
+
+small
+{
+    font-size: 20px;
+}
+
+p
+{
+    text-align: center;
+    background-color: white;
+    font-size: 30px;
+}

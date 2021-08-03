@@ -1,0 +1,23 @@
+body
+{
+    background-color: linen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+blockquote
+{
+    color: darkorange;
+    font-style: italic;
+}
+
+dt
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+dd
+{
+    color: gray;
+}

@@ -1,0 +1,39 @@
+.card
+{
+    background-color: white;
+    margin: 20px auto;
+    width: 60%;
+    min-width: 400px;
+    max-width: 600px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.card-header
+{
+    background-color: gray;
+}
+
+.card-body
+{
+    background-color: white;
+    padding: 10px;
+}
+
+.card-footer
+{
+    text-align: center;
+    background-color: #eaeaea;
+    border: solid silver 1px;
+}
+
+.btn
+{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    background-color: #eaeaea;
+    width: 75px; padding: 5px;
+    border: 1px solid gray; border-radius: 5px;
+    text-decoration: none;
+}
