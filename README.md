@@ -1,6 +1,6 @@
 # web files
 
-Hi,I am a 15 years old student.This is my learning files.
+Hi,This is my learning files.
 
 This project is I wrote it bit by bit
 
