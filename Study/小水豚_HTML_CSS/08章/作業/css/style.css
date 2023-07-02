@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Shippori Mincho', serif;
+    font-size: 18px;
+    color: #121212;
+}
+
+.ffJosefin {
+    font-family: "Josefin Sans", serif;
+}
+
+.innerWrap {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.05em; /* 調整字距 */
+    margin-bottom: 80px;
+}
+
+/* Header */
+
+header {
+    background: url("../images/hero.jpg") no-repeat right/ cover;
+    /* background - image / repeat / position / size */
+}
+
+header .innerWrap {
+    height: 720px;
+    position: relative;
+}
+
+header h1 {
+    padding-top: 120px;
+}
+
+header .scroll {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0.955555rem;
+}
+
+header .scroll img {
+    margin-top: 8px;
+}
+
+header nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-top: 20px;
+    width: 100%;
+    z-index: 100;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 1240px;
+    margin: 0 auto;
+}
+
+header nav ul li a:hover {
+    text-decoration-line: underline;
+}
+
+/* message section */
+.msgSec {
+    background-color: #fbfaf7;
+}
+
+.msgSec .innerWrap {
+    padding-bottom: 0;
+}
+
+.msgSec p {
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: 40px;
+}
+
+.msgSec .illust {
+    margin-top: 60px;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.msgSec p.illust::before {
+    content: url("../images/deco_left.png");
+    position: absolute;
+    bottom: -30px;
+    left: calc(50% - 280px);
+}
+
+.msgSec p.illust::after {
+    content: url("../images/deco_right.png");
+    position: absolute;
+    bottom: -30px;
+    right: calc(50% - 280px);
+}
+
+/* date section */
+
+.dateSec {
+    padding-bottom: 120px;
+}
+
+.dateSec .layoutWrap {
+    display: flex;
+}
+
+.dateSec .layoutWrap > p {
+    flex-basis: 720px;
+}
+
+.dateSec .layoutWrap > .text {
+    flex-basis: 465px;
+}
+
+.dateSec .dateDetailSec {
+    font-size: 4rem;
+    background-color: white;
+    padding: 50px;
+    margin: 120px 0 184px -100px;
+}
+
+.text1 {
+    font-size: 2.5rem;
+}
+
+.text2 {
+    font-size: 2rem;
+}
+
+.text3 {
+    font-size: 3.5rem;
+}
+
+.accessSec {
+    margin-left: 48px;
+    line-height: 1.8rem;
+}
+
+.accessSec h3 {
+    font-size: 2.5rem;
+    color: #c6a89d;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+/* P.179 */
