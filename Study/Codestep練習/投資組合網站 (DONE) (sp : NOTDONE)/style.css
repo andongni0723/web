@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #24292e;
+    font-family: "Hiragino Mincho ProN", sans-serif;
+}
+
+
+h2 {
+    width: 120px;
+    margin: 100px auto 60px auto;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+/* Header */
+header{
+    max-width: 1920px;
+    height: 26vh;
+    padding: 0 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: auto 50px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style-type: none;
+}
+
+header ul li {
+    margin: 15px;
+}
+
+header ul li a{
+    color: #282c34;
+    font-size: 1.5rem;
+    text-decoration-line: none;
+}
+
+header ul li a:hover {
+    opacity: 80%;
+}
+
+header ul li img {
+    width: 20px;
+}
+
+/* Main Visual*/
+.mainVisual img{
+    width: 100%;
+    max-width: 1920px;
+    height: 420px;
+    object-fit: cover;
+}
+
+/* Section */
+section {
+    /*border: 4px solid lightblue;*/
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/* About */
+.about{
+    height: 550px;
+}
+.about .name {
+    margin-bottom: 50px;
+}
+
+.about ul {
+    list-style-type: none;
+}
+
+.about ul li{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.about p {
+    margin-top: 30px;
+}
+
+/* Works */
+.works ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.works li {
+    width: 31%;
+    margin-bottom: 23px;
+}
+
+.works img {
+    width: 100%;
+}
+
+/* News */
+.news dl {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #c8c8c8;
+    margin-bottom: 30px;
+}
+
+.news dl dt{
+    width: 20%;
+    padding: 15px 0;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.news dl dd {
+    width: 80%;
+    padding: 15px 0;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+/* Contact */
+.contact {
+    margin-bottom: 120px;
+}
+.contact dl {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.contact dl dt {
+    width: 15%;
+}
+
+.contact dl dd {
+    width: 85%;
+}
+
+input[type="text"], input[type="email"]{
+    width: 100%;
+    color: white;
+    border: 1px solid #c8c8c8;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.contact textarea {
+    width: 100%;
+    color: white;
+    border: 1px solid #c8c8c8;
+}
+
+.contact .button{
+    text-align:  center;
+}
+
+input[type="submit"]{
+    background-color: #24292e;
+    color: white;
+    padding: 20px 80px;
+    border: 1px solid #24292e;
+    font-size: 1rem;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: #24292e;
+}
+
+
+/* Footer*/
+footer {
+    background-color: #24292e;
+    padding: 10px 0 10px 0;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+}
