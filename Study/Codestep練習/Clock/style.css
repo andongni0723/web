@@ -1,0 +1,19 @@
+h1
+{
+    text-align: center;
+    font-size: 3rem;
+}
+
+h4
+{
+    text-align: center;
+    line-height: 0;
+}
+
+.s {
+    height: 40px;
+    width: 70%;
+    margin: auto;
+    background-color: black;
+    border-radius: 20px;
+}
