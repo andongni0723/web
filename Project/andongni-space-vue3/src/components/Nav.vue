@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import Logo from '../logo/AndongniGame-Icon.vue';
-import FacebookIcon from "@/logo/Facebook-Icon.vue";
-import BiliBiliIcon from "@/logo/BiliBili-Icon.vue";
-import GithubIcon from "@/logo/Github-Icon.vue";
+import Logo from '../Icon/AndongniGame-Icon.vue';
+import FacebookIcon from "@/Icon/Facebook-Icon.vue";
+import BiliBiliIcon from "@/Icon/BiliBili-Icon.vue";
+import GithubIcon from "@/Icon/Github-Icon.vue";
 </script>
 
 <template>

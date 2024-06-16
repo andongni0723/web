@@ -4,24 +4,24 @@
 
 <template>
 <div class="big-title">
-  <h1 class="title-text">PROJECT</h1>
+  <h1 class="title-text">PROJECTS</h1>
   <hr class="line">
 </div>
 </template>
 
 <style scoped>
 .big-title {
-  background-color: black;
+  background-color: var(--main-drak-black-color);
 }
 
 .title-text {
-  font-family: "JetBrains Mono NL",serif;
-  font-weight: bold;
+  font-family: "Impact", "JetBrains Mono NL",serif;
   font-style: italic;
   font-size: 5rem;
-  color: white;
+  color: var(--main-white-color);
   margin-bottom: 30px;
-  padding: 50px 0 0 150px;
+  padding-top: 30px;
+  margin-left: max(0px, calc((100% - 980px) * 0.5));
 }
 
 .line {

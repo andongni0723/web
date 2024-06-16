@@ -81,14 +81,14 @@ p {
 
 .line
 {
-  color: white;
+  color: rgb(222, 220, 217);
   width: 150px;
   margin: 10px  0 20px 0;
 }
 
 .details-text {
   font-family: "bai jamjuree",sans-serif;
-  color: rgb(214, 212, 208);
+  color: white;
   letter-spacing: 2px;
   line-height: 25px;
 }
