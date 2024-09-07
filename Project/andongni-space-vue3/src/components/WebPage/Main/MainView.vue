@@ -1,5 +1,5 @@
 <script setup>
-
+import ResponsiveWatcher from "@/components/Func/ResponsiveWatcher.vue";
 </script>
 
 <template>
@@ -11,7 +11,7 @@
     <p><h3 class="self">正在學習遊戲開發</h3></p>
 
     <div class="show-project">
-      <img class="show-project-img" src="@/assets/crossing-show.jpeg" alt="">
+      <img class="show-project-img" src="../../../assets/crossing-show.jpeg" alt="">
       <div class="project-details">
         <p><h3 class="details-title">作品</h3></p>
         <hr class="line">
@@ -27,21 +27,26 @@
 <style scoped>
 .main-view
 {
-  min-height: 100vh;
+  min-height: 85vh;
   max-width: 100vw;
   background-repeat: no-repeat;
-  background-image: url("../assets/main_background.png");
-  background-position: bottom;
+  background-image: url("../../../assets/main_background.png");
+  background-color: #6b6562;
+  background-position: 80% 100%;
+  background-size: 100vw auto;
 }
 
 .view {
   padding: 80px 0 0 80px;
+  //justify-content: center;
+
 }
 
 .space-text {
-  font-family: "JetBrains Mono NL",serif;
+  font-family: "Impact","JetBrains Mono NL",serif;
   font-style: italic;
-  font-weight: bold;
+  font-size: 2rem;
+  //font-weight: bold;
   color: white;
   padding-bottom: 20px;
 }
@@ -62,15 +67,18 @@ p {
 }
 
 .show-project {
-  margin-top: 100px;
+  padding-top: 20vh;
   display: flex;
+  flex-wrap: wrap;
   gap: 40px;
 }
+
 .show-project-img {
   width: 370px;
   height: 233px;
   border-radius: 20px;
 }
+
 
 .details-title {
   font-family: "Apple Braille",sans-serif;
@@ -81,9 +89,9 @@ p {
 
 .line
 {
-  color: rgb(222, 220, 217);
   width: 150px;
   margin: 10px  0 20px 0;
+  color: white;
 }
 
 .details-text {
@@ -99,5 +107,27 @@ p {
 
 .size4 {
   font-size: 4rem;
+}
+
+
+@media (max-width: 600px){
+  .view {
+    padding: 20px;
+  }
+  .show-project {
+    padding-top: 5vh;
+  }
+
+  .size4 {
+    font-size: 3rem;
+  }
+
+  .show-project-img {
+    //margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    background-position: 60% 60%;
+  }
 }
 </style>

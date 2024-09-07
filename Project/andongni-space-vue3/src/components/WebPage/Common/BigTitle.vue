@@ -29,4 +29,11 @@
   max-width: 100vw;
   margin: 0;
 }
+
+@media (max-width: 600px) {
+  .title-text {
+    padding-left: 30px;
+    font-size: 4rem;
+  }
+}
 </style>
